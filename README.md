@@ -46,3 +46,7 @@ To begin training:
 
 ```bash
 python train.py  # Or run your script directly if not modularized
+
+
+<img width="2962" height="1726" alt="image" src="https://github.com/user-attachments/assets/8fc6bd7d-1366-439f-aec2-2cca633475bb" />
+
