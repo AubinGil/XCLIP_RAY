@@ -46,6 +46,18 @@ To begin training:
 
 ```bash
 python train.py  # Or run your script directly if not modularized
+!python run_readmission5.py \
+  --task_name readmission \
+  --do_train \
+  --do_eval \
+  --data_dir /content/ \
+  --bert_model Simonlee711/Clinical_ModernBERT \
+  --max_seq_length 512 \
+  --train_batch_size 16 \
+  --learning_rate 5e-6 \
+  --num_train_epochs 4 \
+  --output_dir /content/
+
 
 ```
 
